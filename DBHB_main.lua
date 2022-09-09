@@ -130,7 +130,6 @@ DB_HB:Toggle{
             autoCharge()
         elseif state == false then
             autoChargeToggle = false
-            autoCharge()
         else return end
     end
 }
