@@ -170,11 +170,11 @@ DB_HB:Toggle{
     Description = "Farm attack/agil by automatically emulating keys",
     Callback = function(state)
         if state == false then
-            duraToggle = false
+            atkToggle = false
         elseif state == true then
-            duraToggle = true
-            while duraToggle do
-                autoDura()
+            atkToggle = true
+            while atkToggle do
+                autoAtk()
             end
         else return end
     end
